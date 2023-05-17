@@ -32,6 +32,7 @@
           <!-- NAVLINKS -->
           <a href="#/about" class="nav-link">About</a>
           <a href="#/cars" class="nav-link">Cars</a>
+          <a href="#/houses" class="nav-link">Houses</a>
         </div>
       </div>
       <div class="flex-grow-1 justify-content-end align-items-center d-flex" id="authstate"></div>
@@ -45,17 +46,19 @@
 
   </main>
 
-<!-- 
-  <button data-bs-toggle="offcanvas" data-bs-target="#that-bottom-thing" >OPEN THE Bottom</button> -->
+
+  <button data-bs-toggle="offcanvas" data-bs-target="#offcanvas" >OPEN THE Bottom</button>
   
   <div class="sticky-bottom" id="the-place-to-put-the-button">
 
   </div>
 
+  <div class="sticky-bottom" id="modal-btn">
+
+  </div>
 
 
-
-  <div class="modal fade" id="the-target-id" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="#modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
       <!-- NOTE inside of modal content is what is actually displayed in the modal -->
       <div class="modal-content" id="modal-guts">
@@ -66,7 +69,7 @@
   </div>
 
 
-  <div class="offcanvas offcanvas-bottom" tabindex="-1" id="that-bottom-thing" aria-labelledby="offcanvasBottomLabel">
+  <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasBottomLabel">
     <div class="offcanvas-header">
       <h5 class="offcanvas-title" id="offcanvasBottomLabel">Offcanvas bottom</h5>
       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
